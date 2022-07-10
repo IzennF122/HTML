@@ -1,0 +1,116 @@
+body{
+    padding-left: 0;
+    padding-right: 0;
+    height: 100vh;
+    background-image: url("backimg.jfif");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: Helvetica;
+    font-weight: 900;
+    font-size: 5em;
+    text-align: center;
+    color: #d5d9da;
+
+}
+
+hr{
+    height: 0.5px;
+    border-color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3{
+    text-align: center;
+    background-color: #7ed6df;
+}
+
+.container{
+    margin-left: 35%;
+    margin-top: 2%;
+    display: inline-block;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 12px;
+    width: 30%;
+    height: 56%;
+    background: #393e3f;
+    padding-top: 20px;
+}
+.container a{
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-family: Helvetica;
+    font-weight:900;
+    font-size:x-large;
+    width: 203px;
+    margin-left: 38%;
+    border-radius:15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.container a:hover{
+    color: #dff9fb;
+}
+
+
+input, label{
+    display: block;
+    margin-top: 18px;
+    margin-left: 50px;
+    height: 9%;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight:600;
+}
+
+label{
+    text-align: center;
+    color:azure;
+    font-family: Helvetica;
+    font-weight:600;
+    font-size:medium;
+}
+
+.birth-date,  option{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70px;
+    height: 70%;
+    text-align: center;
+}
+
+.birth-dates{
+border: 1px solid black;
+border-radius: 10px;
+width: 77px;
+height: 70%;
+text-align: center;
+}
+
+input[type="button"]{
+    width: 32%;
+    display:inline-flex;
+    background-color: #7ed6df;
+    text-transform: uppercase;
+    transition: background-color 0.6s, color 0.5s;
+    cursor: pointer;
+    text-
+}
+
+input[type="button"]:hover{
+    background-color: #130f40;
+    color:aliceblue;
+}
+
+input[type="button"]:active{
+    opacity: 0.5;
+    background-color: #273c75;
+}
