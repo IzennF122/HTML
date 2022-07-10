@@ -102,7 +102,6 @@ input[type="button"]{
     text-transform: uppercase;
     transition: background-color 0.6s, color 0.5s;
     cursor: pointer;
-    text-
 }
 
 input[type="button"]:hover{
